@@ -38,7 +38,7 @@ function nor(a,b) {
 function add1(a,b) {
   overflow = and(a,b) 
   sum = xor(a,b)
-  return {sum, overflow}
+  return {sum, overflow} // <-----
 }
 
 function zadd1(a,b,z) {
